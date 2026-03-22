@@ -4,7 +4,7 @@ Este taller está diseñado para introducir a los estudiantes en los conceptos d
 
 ## Estudiante
 
-Cuenta: [@tu_cuenta_github]
+Cuenta: https://github.com/andres0772?tab=repositories
 
 ## Objetivos
 
@@ -52,7 +52,7 @@ Cuenta: [@tu_cuenta_github]
 * Clonar el proyecto
 
     ```bash
-    git clone https://github.com/clubdecomputacion/lpa1-taller-poo.git
+    git clone https://github.com/andres0772/lpa1-taller-poo.git
     cd lpa1-taller-poo
     ```
 
@@ -190,4 +190,3 @@ El estudiante debe actualizar su repositio personal con:
 * Enfatizar la importancia de las pruebas unitarias para garantizar la calidad del código.
 * Utilizar Git para gestionar los cambios y realizar commits atómicos.
 * Mantener el `README.md` actualizado y documentar el código cuando sea necesario.
-
