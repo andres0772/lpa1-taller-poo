@@ -103,11 +103,7 @@ class Escritorio(Superficie):
         # Costo adicional si la altura es regulable
         if self.altura_regulable:
             precio += 15.0
-        # Heredamos los ajustes de Superficie? No, Superficie no tiene cálculo de precio específico.
-        # Pero podemos aplicar los mismos ajustes que en Mesa si quisieramos, pero dejamos solo los específicos.
-        # Sin embargo, para mantener consistencia, podríamos aplicar los factores de Superficie si los hubiera.
-        # Dado que Superficie no implementa calcular_precio (es abstracto en Mueble), no hay heredado.
-        # Pero podemos considerar que el precio_base ya incluye el costo de la superficie básica.
+
         return round(precio, 2)
 
     def obtener_descripcion(self) -> str:
